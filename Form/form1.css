@@ -1,0 +1,56 @@
+*{
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 400px;
+    background-color: #eee;
+    margin: 8px auto;
+    padding: 12px 0;
+    border-radius: 22px;
+    box-shadow: 3px 3px 34px #ada8a8;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.name-email input{
+    display: block;
+    margin: 17px auto;
+    width: 360px;
+    height: 24px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    font-size: 17px;
+}
+
+#textarea{
+    display: block;
+    margin: 18px auto;
+    border-radius: 14px;
+    width: 350px;
+    padding: 10px;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+
+#msgbtn{
+    display: block;
+    margin: auto;
+    font-size: larger;
+    padding: 5px;
+    width: 360px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(88, 88, 255), rgb(178, 96, 255), rgb(105, 255, 255));
+    color: whitesmoke;
+}
